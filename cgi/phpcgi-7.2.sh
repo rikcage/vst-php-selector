@@ -6,7 +6,7 @@ ip="$3"
 home_dir="$4"
 docroot="$5"
 
-wrapper_script='#!/usr/bin/php-cgi7.2-cphp5-cgi.ini'
+wrapper_script='#!/usr/bin/php -cgi7.2-cphp5-cgi.ini'
 wrapper_file="$home_dir/$user/web/$domain/cgi-bin/php"
 
 echo "$wrapper_script" > $wrapper_file
