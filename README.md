@@ -1,9 +1,10 @@
 # VestaCP PHP Multi Selector, PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0
 Vestacp, multi selector versions of php 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 for Ubuntu (Debian).
 
+This will work like cgi, fcgi or fpm.
+
 ## vst-php-selector
 You can use one of three scripts for your missions.
-This will work like cgi, fcgi or fpm.
 
 1)
 ```bash
