@@ -1,26 +1,26 @@
-# vst-php-selector
-Vestacp, multi selector versions of php for Ubuntu.
+#VestaCP PHP Multi Selector, PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0
+Vestacp, multi selector versions of php 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 for Ubuntu (Debian).
 
-
-You can use three scripts for your missions.
+## vst-php-selector
+You can use one of three scripts for your missions.
 This will work like cgi, fcgi or fpm.
 
 1)
-```
+```bash
 wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-cgi.sh 
 chmod a+x ./vst-php-cgi.sh 
 sudo ./vst-php-cgi.sh 
 ```
 
 2)
-```
+```bash
 wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-fcgid.sh 
 chmod a+x ./vst-php-fcgid.sh 
 sudo ./vst-php-fcgid.sh 
 ```
 
 3)
-```
+```bash
 wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-fpm.sh 
 chmod a+x ./vst-php-fpm.sh 
 sudo ./vst-php-fpm.sh 
@@ -29,12 +29,12 @@ sudo ./vst-php-fpm.sh
 After running the script, you should choose the versions of php for example (7.2 7.4)
 Script add repository and install chosen base versions of php.
 Then you should install extensions rof example
-```
+```bash
 $ sudo apt install php7.2-curl 
 $ sudo apt install php7.4-curl
 ```
-
-```
+or
+```bash
 $ sudo apt install php7.0-apcu php7.0-mbstring php7.0-bcmath php7.0-cli php7.0-curl php7.0-gd php7.0-intl php7.0-mcrypt php7.0-mysql php7.0-soap php7.0-xml php7.0-xmlrpc php7.0-json php7.0-zip php7.0-memcache php7.0-memcached php7.0-ldap 
 $ sudo apt install php7.1-apcu php7.1-mbstring php7.1-bcmath php7.1-cli php7.1-curl php7.1-gd php7.1-intl php7.1-mcrypt php7.1-mysql php7.1-soap php7.1-xml php7.1-xmlrpc php7.1-json php7.1-zip php7.1-memcache php7.1-memcached php7.1-ldap 
 $ sudo apt install php7.2-apcu php7.2-mbstring php7.2-bcmath php7.2-cli php7.2-curl php7.2-gd php7.2-intl php7.2-mcrypt php7.2-mysql php7.2-soap php7.2-xml php7.2-xmlrpc php7.2-json php7.2-zip php7.2-memcache php7.2-memcached php7.2-ldap 
@@ -45,7 +45,7 @@ $ sudo apt install php8.0-apcu php8.0-mbstring php8.0-bcmath php8.0-cli php8.0-c
 
 For old version of Ubuntu
 
-```
+```bash
 $ sudo apt-get install php5.6-apcu php5.6-mbstring php5.6-bcmath php5.6-cli php5.6-curl php5.6-gd php5.6-intl php5.6-mcrypt php5.6-mysql php5.6-soap php5.6-xml php5.6-xmlrpc php5.6-json php5.6-zip php5.6-memcache php5.6-memcached php5.6-ldap 
 
 ```
