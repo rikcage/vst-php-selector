@@ -1,4 +1,4 @@
-#VestaCP PHP Multi Selector, PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0
+# VestaCP PHP Multi Selector, PHP 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0
 Vestacp, multi selector versions of php 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 for Ubuntu (Debian).
 
 ## vst-php-selector
