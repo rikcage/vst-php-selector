@@ -6,21 +6,21 @@ This will work like cgi, fcgi or fpm.
 ## vst-php-selector
 You can use one of three scripts for your missions.
 
-1) <h>cgi</h>
+1) <h3>cgi</h3>
 ```bash
 wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-cgi.sh 
 chmod a+x ./vst-php-cgi.sh 
 sudo ./vst-php-cgi.sh 
 ```
 
-2) <h>fcgi</h>
+2) <h3>fcgi</h3>
 ```bash
 wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-fcgid.sh 
 chmod a+x ./vst-php-fcgid.sh 
 sudo ./vst-php-fcgid.sh 
 ```
 
-3) <h>fpm</h>
+3) <h3>fpm</h3>
 ```bash
 wget https://raw.githubusercontent.com/rikcage/vst-php-selector/main/vst-php-fpm.sh 
 chmod a+x ./vst-php-fpm.sh 
