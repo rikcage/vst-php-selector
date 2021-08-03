@@ -56,3 +56,7 @@ Screenshots
 ------------
 ![1](/screenshot/php_version.png )
 ![2](/screenshot/php.png )
+
+Discussion
+------------
+https://forum.vestacp.com/viewtopic.php?f=41&t=20571
