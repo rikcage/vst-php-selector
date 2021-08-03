@@ -20,7 +20,7 @@ else
     exit 0
 fi
 
-a2enmod proxy_fcgi setenvif
+a2enmod cgi
 
 echo "You can enter multiple versions through 'space'."
 echo "Enter php version/versions(for example 5.6 7.0 7.1 7.2 7.3 7.4 8.0):"
