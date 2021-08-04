@@ -3,13 +3,12 @@ Vestacp, multi selector versions of php 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 for Ub
 
 It has been tested and works on Ubuntu 18.04 and Debian 9.
 
-<h2>Discussion</h2>
-------------
+<h4>Discussion</h4>
 https://forum.vestacp.com/viewtopic.php?f=41&t=20571
 
+## vst-php-selector
 This will work like cgi, fcgi or fpm.
 
-## vst-php-selector
 You can use one of three scripts for your missions.
 
 1) <h3>cgi</h3>
