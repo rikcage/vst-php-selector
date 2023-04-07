@@ -1,9 +1,9 @@
-<VirtualHost %ip%:%web_ssl_port%>
+<VirtualHost %ip%:%web_port%>
 
     ServerName %domain_idn%
     %alias_string%
     ServerAdmin %email%
-    DocumentRoot %sdocroot%
+    DocumentRoot %docroot%
     ScriptAlias /cgi-bin/ %home%/%user%/web/%domain%/cgi-bin/
     Alias /vstats/ %home%/%user%/web/%domain%/stats/
     Alias /error/ %home%/%user%/web/%domain%/document_errors/
@@ -16,14 +16,8 @@
     </Directory>
     <Directory %sdocroot%>
         AllowOverride All
-        SSLRequireSSL
         Options +Includes -Indexes +ExecCGI
-	</Directory>
-    SSLEngine on
-    SSLVerifyClient none
-    SSLCertificateFile %ssl_crt%
-    SSLCertificateKeyFile %ssl_key%
-    %ssl_ca_str%SSLCertificateChainFile %ssl_ca%
+    </Directory>
 #    <IfModule mod_ruid2.c>
 #        RMode config
 #        RUidGid %user% %group%
@@ -38,7 +32,7 @@
     </FilesMatch>
     SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
 
-    IncludeOptional %home%/%user%/conf/web/s%web_system%.%domain%.conf*
+    IncludeOptional %home%/%user%/conf/web/%web_system%.%domain%.conf*
 
 </VirtualHost>
 
